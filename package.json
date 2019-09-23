@@ -1,0 +1,38 @@
+{
+  "name": "@truffleuniversity/dish-tokens",
+  "version": "0.1.0",
+  "description": "Get familar with some of the delicious token flavors out there.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^2.3.0",
+    "any-promise": "^1.3.0",
+    "bindings": "^1.5.0",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.5",
+    "truffle-security": "^1.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "openzeppelin-test-helpers": "github:OpenZeppelin/openzeppelin-test-helpers"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truffleuniversity/truffle-u-tokens.git"
+  },
+  "keywords": [
+    "drizzle",
+    "truffle",
+    "tokens"
+  ],
+  "author": "Truffle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/truffleuniversity/truffle-u-tokens/issues"
+  },
+  "homepage": "https://github.com/truffleuniversity/truffle-u-tokens#readme"
+}
